@@ -19,7 +19,7 @@ function M.smart_require(modname)
   end
   -- Convert dot notation to file path, e.g., "koda.groups.base" -> "koda/groups/base.lua"
   local file = root .. "/" .. modname:gsub("%.", "/") .. ".lua"
-  local result = loadfile(file)() -- load and execute the file
+  local result = loadfile(file)()  -- load and execute the file
   package.loaded[modname] = result -- manually cache the result
   return result
 end
