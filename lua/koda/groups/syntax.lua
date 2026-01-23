@@ -30,7 +30,7 @@ function M.get_hl(c, opts)
     Type           = { link = "Altkey" },
     StorageClass   = { link = "Keyword" },
     Structure      = { link = "Altkey" },
-    Typedef        = { link = "Altkey" },
+    Typedef        = { link = "Keyword" },
     Special        = { link = "Normal" },
     SpecialChar    = { link = "Special" },
     Tag            = { link = "Normal" },
