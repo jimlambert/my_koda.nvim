@@ -6,7 +6,7 @@ function M.get_hl(c, opts)
   -- stylua: ignore
   return {
     ["@variable"]                    = { link = "Identifier" },
-    ["@variable.builtin"]            = { link = "Constant" },   -- e.g. this, self
+    ["@variable.builtin"]            = { link = "Constant" }, -- e.g. this, self
     ["@variable.parameter"]          = { link = "Identifier" },
     ["@variable.parameter.builtin"]  = { link = "Identifier" },
     ["@variable.member"]             = { link = "Identifier" },
@@ -82,7 +82,7 @@ function M.get_hl(c, opts)
     ["@markup.heading.6.markdown"]   = { link = "@markup.heading" },
     ["@markup.quote"]                = { link = "Comment" },
     ["@markup.math"]                 = { link = "Special" },
-    ["@markup.link"]                 = { fg = c.emphasis, underline = true },
+    ["@markup.link"]                 = { fg = c.red, underline = true },
     ["@markup.link.label"]           = { link = "@markup.link.label" },
     ["@markup.link.url"]             = { fg = c.info, underline = true },
     ["@markup.raw"]                  = { fg = c.const },
