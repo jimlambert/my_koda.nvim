@@ -1,7 +1,7 @@
 -- stylua: ignore
 ---@class koda.Palette
 local palette = {
-  bg        = "#101010",
+  bg        = "#211f24",
   fg        = "#b0b0b0",
   dim       = "#000000",
   line      = "#272727",
